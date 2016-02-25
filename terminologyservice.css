@@ -1,0 +1,46 @@
+footer.navbar-fixed-bottom {
+  background-color: #577FBB;
+  color: #fff;
+  min-height: 0px;
+}
+footer.navbar-fixed-bottom a, 
+footer.navbar-fixed-bottom a:hover,
+footer.navbar-fixed-bottom a:visited {
+  color: #fff;
+}
+p.lead {
+  margin: 0;
+}
+
+ul.nav-stacked {
+    border-right: 1px solid #eee;
+}
+
+.nav-pills > li a {
+  color: #000;
+}
+/* Glyphicon */
+/*
+.nav-pills > li.active a:after,
+.nav-pills > li:hover a:after,
+.nav-pills > li a:focus:after {
+    content: " \e080";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+*/
+.nav-pills > li.active > a {
+  background-color: #dff0d8;
+  color: #000;
+}
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #dff0d8;
+  color: #000;
+}
+
